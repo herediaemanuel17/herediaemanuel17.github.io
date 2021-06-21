@@ -1,0 +1,301 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 may. 2021, 20:11:27
+    Author     : ema17
+*/
+#encabezado{
+    width: 680px;
+    height: 280px;
+   /*border: 1px solid blue;*/
+    box-sizing: content-box;
+    margin: auto;
+}
+#barraCentral{
+    width: 680px;
+    height: 50px;
+   
+    box-sizing: content-box;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pan_izq{
+    width: 190px;
+    height: 450px;
+    
+    box-sizing: content-box;
+    position: absolute;/*superposicion de cajas*/
+    left: 340px; /*dezplasa 350px desde el margen izquierdo*/
+    bottom: -190px;
+}
+
+#centro{
+    width: 190px;
+    height: 450px;
+   
+    box-sizing: content-box;
+    position: absolute;
+    left: 535px;
+     bottom: -190px;
+}
+
+#panel_der{
+    width: 190px;
+    height: 450px;
+   
+    box-sizing: content-box;
+    position: absolute;
+    left: 730px;
+     bottom: -190px;
+}
+
+#barraCentInf{
+    width: 620px;
+    height: 25px;
+   
+    box-sizing: content-box;
+    margin: auto;
+    bottom: -270px;
+    position: absolute;
+    left: 290px;
+    
+}
+
+#abajo{
+    width: 680px;
+    height: 180px;
+   
+    box-sizing: content-box;
+    margin: auto;
+    position:absolute; /*sEl div será ubicado con relación a la pantalla*/
+    left:0px; /*A la derecha deje un espacio de 0px*/
+    right:0px; /*A la izquierda deje un espacio de 0px*/
+    bottom:-455px; /*Abajo deje un espacio de 0px*/
+    
+    /*z-index:0;*/
+    
+}
+
+#recUp{
+    width: 189px;
+    height: 158px;
+    
+    box-sizing: content-box;
+    position: absolute;
+    
+}
+#recDown{
+    width: 189px;
+    height: 220px;
+
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 25px; 
+}
+#descCasaTitle{
+    width: 189px;
+    height: 0px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+#descCasa{
+    width: 189px;
+    height: 0px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    
+}
+#descCasaPrecio{
+    width: 189px;
+    height: 0px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    color:#3BA832;
+    
+}
+.botonVerPropiedad{
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    position: absolute;
+    left: 15px;
+    bottom: -70px
+}
+
+
+
+#centroCentro{
+    width: 189px;
+    height: 20px;
+  
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 260px;
+    font-family: 'Roboto', sans-serif;
+}
+#txtIntUp{
+    position: relative;
+    bottom: -60px;
+   
+}
+#txtIntD{
+    position: relative;
+    bottom: -50px;
+}
+
+/*Fuentes de Texto de Google*/
+.txtNonNegrita{
+    font-family: 'Roboto', sans-serif;
+}
+.txtNegrita{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Iconos e Imagenes*/
+
+#imgInteriorUp{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 60px;
+}
+
+#imgInterior{
+    width: 188px;
+    height: 125px;
+}
+#imgCabecera{
+    width: 680px;
+    height: 280px;
+}
+
+#imgAbajo{
+    width: 680px;
+    height: 145px;
+}
+
+
+#textoInternoArriba{
+    width: 660px;
+    height: 240px;
+
+    box-sizing: content-box;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    /*color: white;*/
+}
+#tituloArribasup{
+    font-family: 'Prata', serif;
+    color: white;
+}
+#opcDerechasup{
+    font-family: 'Roboto', sans-serif;
+   position: absolute;
+   left: 500px;
+   top: 20px;
+   color: white;
+   font-size: xx-small;
+}
+#descAbajoSup{
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    font-size: xx-small;
+    font-size: large;
+    bottom: 50px;
+    position: absolute;
+    
+}
+#textoIntAbajo{
+    font-family: 'Didact Gothic', sans-serif;
+    width: 600px;
+    height: 90px;
+ 
+    box-sizing: content-box;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: white;
+    
+}
+#botonVerTodo{
+    
+    float: right;
+    background-color: #49CE3D; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    
+
+}
+#textoAbajoAbajo{
+    
+   font-family: 'Roboto', sans-serif;
+   position: relative;
+   color: white;
+   font-size: xx-small;
+   bottom:-10px;
+}
+#iconoChico{
+    width: 25px;
+    height: 25px;
+    
+}
+#txtIcono{
+    position: relative;
+    bottom: 5px;
+    left: 2px;
+   
+}
+#icono1{
+    
+  font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+    position: absolute;
+    left: 20px;
+    
+}
+#icono2{
+  
+   font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+    position: absolute;
+    left: 80px;
+}
+#icono3{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
+    position: absolute;
+    left: 140px;
+}
+#botonContacto{
+    
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+#copiright{
+    float: right;
+    font-family: 'Roboto', sans-serif;
+   position: relative;
+   color: white;
+   font-size: xx-small;
+}
